@@ -3,14 +3,21 @@
     <title>Photo Gallery</title>
 
     <style>
+
         body {
             font-family: Arial, sans-serif;
-            background-color: #f0f0f0;
-            margin: 60px;
+            background-image: url("assets/background.jpg");
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            margin: 40px;
+            color: white;
         }
 
         h1 {
             text-align: center;
+            font-size: 36px;
+            text-shadow: 2px 2px 5px black;
         }
 
         .gallery {
@@ -21,8 +28,9 @@
         }
 
         .card {
-            background-color: white;
-            border: 2px solid #333;
+            background-color: rgba(25, 20, 60, 0.9);
+            border: 2px solid #d89acb;
+            border-radius: 10px;
             padding: 10px;
             width: 200px;
             text-align: center;
@@ -32,22 +40,31 @@
             width: 100%;
             height: 200px;
             object-fit: cover;
+            border-radius: 5px;
         }
 
         .card h2 {
             font-size: 18px;
+            color: #ffd6f5;
         }
 
         .card p {
             font-style: italic;
+            color: #e8cce8;
         }
 
         button {
             padding: 8px 15px;
-            background-color: #0833b6;
+            background-color: #9b4d96;
             color: white;
             border: none;
+            border-radius: 5px;
         }
+
+        button:hover {
+            background-color: #c46ab8;
+        }
+
     </style>
 </head>
 
@@ -67,7 +84,7 @@
         <div class="card">
             <img src="assets/unique.jpg" alt="">
             <h2>Bonique P. Tolentino</h2>
-            <p>"She believes in God's perfect timing."</p>
+            <p>"Believe in yourself."</p>
             <button>View Details</button>
         </div>
 
@@ -78,35 +95,35 @@
             <button>View Details</button>
         </div>
 
-         <div class="card">
+        <div class="card">
             <img src="assets/lianna.jpg" alt="">
             <h2>Lian Grace N. Tero</h2>
             <p>"Heavily protected by God."</p>
             <button>View Details</button>
         </div>
 
-         <div class="card">
+        <div class="card">
             <img src="assets/justin.jpg" alt="">
             <h2>Justin Sam G. Cantiga</h2>
             <p>"Say less do more"</p>
             <button>View Details</button>
         </div>
 
-         <div class="card">
+        <div class="card">
             <img src="assets/normel.jpg" alt="">
             <h2>Normel T. Francisco</h2>
             <p>"You can't predict what a hungry person will do"</p>
             <button>View Details</button>
         </div>
 
-         <div class="card">
+        <div class="card">
             <img src="assets/jaboli.jpg" alt="">
             <h2>Chris Jaboli</h2>
             <p>"Don't Quit, Just Do it"</p>
             <button>View Details</button>
         </div>
 
-         <div class="card">
+        <div class="card">
             <img src="assets/owen.jpg" alt="">
             <h2>Mark Owen Badua</h2>
             <p>"Keep moving forward."</p>
